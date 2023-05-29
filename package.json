@@ -8,7 +8,7 @@
     "Backend": "nodemon Backend/Server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Christian Marquinez",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
