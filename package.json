@@ -5,13 +5,15 @@
   "main": "Server.js",
   "scripts": {
     "start": "node Backend/Server.js",
-    "Backend": "nodemon Backend/Server.js"
+    "Backend": "nodemon Backend/Server.js",
+    "frontend": "npm start --prefix frontend"
   },
   "keywords": [],
   "author": "Christian Marquinez",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
+    "concurrently": "^8.1.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongodb": "^5.5.0",
